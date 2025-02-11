@@ -1,6 +1,6 @@
 {
 	"name": "Embedded Javascript",
-	"scopeName": "text.html.ejs",
+	"scopeName": "text.html.tidejs",
 	"injectionSelector": "L:text.html",
 	"patterns": [
 		{
@@ -24,16 +24,16 @@
 			"begin": "\/%#",
 			"beginCaptures": {
 				"0": {
-					"name": "punctuation.definition.comment.ejs"
+					"name": "punctuation.definition.comment.tidejs"
 				}
 			},
 			"end": "%\/",
 			"endCaptures": {
 				"0": {
-					"name": "punctuation.definition.comment.ejs"
+					"name": "punctuation.definition.comment.tidejs"
 				}
 			},
-			"name": "comment.block.ejs"
+			"name": "comment.block.tidejs"
 		},
 		"tag-single-line-section-comment": {
 			"begin": "(\/%(?:(?!php))[%_=-]?)\\s*((\/\\*)(.*)(\\*\/))(?=(\\s*(%\/)))",
@@ -42,13 +42,13 @@
 					"name": "keyword.operator.relational.js"
 				},
 				"3": {
-					"name": "punctuation.definition.comment.ejs"
+					"name": "punctuation.definition.comment.tidejs"
 				},
 				"5": {
-					"name": "punctuation.definition.comment.ejs"
+					"name": "punctuation.definition.comment.tidejs"
 				},
 				"2": {
-					"name": "comment.block.ejs"
+					"name": "comment.block.tidejs"
 				}
 			},
 			"end": "(%\/)",
@@ -57,11 +57,11 @@
 					"name": "keyword.operator.relational.js"
 				}
 			},
-			"contentName": "comment.block.ejs",
-			"name":"meta.block.single.comment.ejs"
+			"contentName": "comment.block.tidejs",
+			"name":"meta.block.single.comment.tidejs"
 		},
 		"tag-section-comment": {
-			"name":"comment.block.ejs",
+			"name":"comment.block.tidejs",
 			"begin":"(\/%(?:(?!php)))\\s*((?=(\/\\*)))",
 			"beginCaptures": {
 				"1": {
@@ -71,7 +71,7 @@
 			"end": "(\\*\/)\\s*(%\/)",
 			"endCaptures": {
 				"1": {
-					"name": "punctuation.definition.comment.ejs"
+					"name": "punctuation.definition.comment.tidejs"
 				},
 				"2": {
 					"name": "keyword.operator.relational.js"
@@ -97,13 +97,13 @@
 					}
 				},
 				{
-					"include":"text.html.ejs"
+					"include":"text.html.tidejs"
 				}
 			]
 		},		
 		"tag-ejs-single-line": {
 			
-			"name": "meta.tag.metadata.script.ejs",
+			"name": "meta.tag.metadata.script.tidejs",
 			"begin":"(\/%(?:(?!php))[%_=-]?)(?!(\\s*\\*\/))(((?!([_-]?%\/)).)+)(?=([_-]?%\/))",
 			"beginCaptures": {
 				"0": {
@@ -114,7 +114,7 @@
 					"name": "keyword.operator.relational.js"
 				},
 				"3": {
-					"name": "meta.embedded.ejs",
+					"name": "meta.embedded.tidejs",
 					"contentName": "source.js",
 					"patterns":[
 						{
@@ -135,14 +135,14 @@
 		},
 		"tag-ejs-multi-line": {
 			"contentName":"source.js",
-			"name": "meta.block.ejs",
+			"name": "meta.block.tidejs",
 			"begin":"(\/%(?:(?!php))[%_=-]?)(?!(\\s*\\*\/))",
 			"beginCaptures": {
 				"1": {
 					"name": "keyword.operator.relational.js"
 				},
 				"3": {
-					"name": "meta.embedded.ejs",
+					"name": "meta.embedded.tidejs",
 					"contentName": "source.js",
 					"patterns":[
 						{

@@ -1,172 +1,172 @@
 {
-  "EJS No Output": {
-    "prefix": "ejs",
+  "hexo-theme-tide EJS No Output": {
+    "prefix": "tidejs",
     "body": [
       "/% $1 %/$2"
     ],
-    "description": "EJS No Output"
+    "description": "hexo-theme-tide EJS No Output"
   },
-  "EJS Output Value": {
-    "prefix": "ejsout",
+  "hexo-theme-tide EJS Output Value": {
+    "prefix": "tidejsout",
     "body": [
       "/%= $1 %/$2"
     ],
-    "description": "EJS outputs no value"
+    "description": "hexo-theme-tide EJS outputs no value"
   },
-  "EJS Output Escaped": {
-    "prefix": "ejsesc",
+  "hexo-theme-tide EJS Output Escaped": {
+    "prefix": "tidejsesc",
     "body": [
       "/%- $1 %/$2"
     ],
-    "description": "EJS outputs value"
+    "description": "hexo-theme-tide EJS outputs value"
   },
-  "EJS Comment": {
-    "prefix": "ejscom",
+  "hexo-theme-tide EJS Comment": {
+    "prefix": "tidejscom",
     "body": [
       "/%# $1 %/$2"
     ],
-    "description": "EJS comment tag with no output"
+    "description": "hexo-theme-tide EJS comment tag with no output"
   },
-  "EJS Literal": {
-    "prefix": "ejslit",
+  "hexo-theme-tide EJS Literal": {
+    "prefix": "tidejslit",
     "body": [
       "/%% $1 %/$2"
     ],
-    "description": "EJS outputs a literal '/%'"
+    "description": "hexo-theme-tide EJS outputs a literal '/%'"
   },
-  "EJS Include": {
-    "prefix": "ejsinc",
+  "hexo-theme-tide EJS Include": {
+    "prefix": "tidejsinc",
     "body": [
       "/%- include('$1') %/$2"
     ],
-    "description": "EJS include statement"
+    "description": "hexo-theme-tide EJS include statement"
   },
-  "EJS For Loop": {
-    "prefix": "ejsfor",
+  "hexo-theme-tide EJS For Loop": {
+    "prefix": "tidejsfor",
     "body": [
       "/% for( let ${1:index} = 0; ${1:index} < ${2:array}.length; ${1:index}++ ) { %/",
       "$3",
       "/% } %/"
     ],
-    "description": "EJS For Loop"
+    "description": "hexo-theme-tide EJS For Loop"
   },
-  "EJS ForEach": {
-    "prefix": "ejseach",
+  "hexo-theme-tide EJS ForEach": {
+    "prefix": "tidejseach",
     "body": [
       "/% ${1:array}.forEach(${2:element} => { %/",
       " $3",
       "/% }) %/"
     ],
-    "description": "EJS ForEach Loop"
+    "description": "hexo-theme-tide EJS ForEach Loop"
   },
-  "EJS If Statement": {
-    "prefix": "ejsif",
+  "hexo-theme-tide EJS If Statement": {
+    "prefix": "tidejsif",
     "body": [
       "/% if (${1:condition}) { %/",
       " $2",
       "/% } %/"
     ],
-    "description": "EJS if statement"
+    "description": "hexo-theme-tide EJS if statement"
   },
-  "EJS Else Statement": {
-    "prefix": "ejselse",
+  "hexo-theme-tide EJS Else Statement": {
+    "prefix": "tidejselse",
     "body": [
       "/% } else { %/",
       " $1"
     ],
-    "description": "EJS if statement"
+    "description": "hexo-theme-tide EJS if statement"
   },
-  "EJS Else If Statement": {
-    "prefix": "ejselif",
+  "hexo-theme-tide EJS Else If Statement": {
+    "prefix": "tidejselif",
     "body": [
       "/% } else if ({$1:condition}) { %/",
       " $2"
     ],
-    "description": "EJS if statement"
+    "description": "hexo-theme-tide EJS if statement"
   },
-  "EJS TAG": {
+  "hexo-theme-tide EJS TAG": {
     "prefix": "/%",
     "body": [
       "/% $1 %/$2"
     ],
-    "description": "EJS No Output"
+    "description": "hexo-theme-tide EJS No Output"
   },
-  "EJS TAG Output Value": {
+  "hexo-theme-tide EJS TAG Output Value": {
     "prefix": "/%=",
     "body": [
       "/%= $1 %/$2"
     ],
-    "description": "EJS outputs no value"
+    "description": "hexo-theme-tide EJS outputs no value"
   },
-  "EJS TAG Output Escaped": {
+  "hexo-theme-tide EJS TAG Output Escaped": {
     "prefix": "/%-",
     "body": [
       "/%- $1 %/$2"
     ],
-    "description": "EJS outputs value"
+    "description": "hexo-theme-tide EJS outputs value"
   },
-  "EJS TAG Comment": {
+  "hexo-theme-tide EJS TAG Comment": {
     "prefix": "/%#",
     "body": [
       "/%# $1 %/$2"
     ],
-    "description": "EJS comment tag with no output"
+    "description": "hexo-theme-tide EJS comment tag with no output"
   },
-  "EJS TAG Literal": {
+  "hexo-theme-tide EJS TAG Literal": {
     "prefix": "/%%",
     "body": [
       "/%% $1 %/$2"
     ],
-    "description": "EJS outputs a literal '/%'"
+    "description": "hexo-theme-tide EJS outputs a literal '/%'"
   },
-  "EJS TAG Include": {
+  "hexo-theme-tide EJS TAG Include": {
     "prefix": "/% ",
     "body": [
       "/%- include('$1') %/$2"
     ],
-    "description": "EJS include statement"
+    "description": "hexo-theme-tide EJS include statement"
   },
-  "EJS TAG For Loop": {
+  "hexo-theme-tide EJS TAG For Loop": {
     "prefix": "/% ",
     "body": [
       "/% for( let ${1:index} = 0; ${1:index} < ${2:array}.length; ${1:index}++ ) { %/",
       "$3",
       "/% } %/"
     ],
-    "description": "EJS For Loop"
+    "description": "hexo-theme-tide EJS For Loop"
   },
-  "EJS TAG ForEach": {
+  "hexo-theme-tide EJS TAG ForEach": {
     "prefix": "/% ",
     "body": [
       "/% ${1:array}.forEach(${2:element} => { %/",
       " $3",
       "/% }) %/"
     ],
-    "description": "EJS ForEach Loop"
+    "description": "hexo-theme-tide EJS ForEach Loop"
   },
-  "EJS TAG If Statement": {
+  "hexo-theme-tide EJS TAG If Statement": {
     "prefix": "/% ",
     "body": [
       "/% if (${1:condition}) { %/",
       " $2",
       "/% } %/"
     ],
-    "description": "EJS if statement"
+    "description": "hexo-theme-tide EJS if statement"
   },
-  "EJS TAG Else Statement": {
+  "hexo-theme-tide EJS TAG Else Statement": {
     "prefix": "/% ",
     "body": [
       "/% } else { %/",
       " $1"
     ],
-    "description": "EJS if statement"
+    "description": "hexo-theme-tide EJS if statement"
   },
-  "EJS TAG Else If Statement": {
+  "hexo-theme-tide EJS TAG Else If Statement": {
     "prefix": "/% ",
     "body": [
       "/% } else if ({$1:condition}) { %/",
       " $2"
     ],
-    "description": "EJS if statement"
+    "description": "hexo-theme-tide EJS if statement"
   }
 }

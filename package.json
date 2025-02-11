@@ -1,14 +1,14 @@
 {
-	"name": "javascript-ejs-support",
-	"displayName": "EJS language support",
-	"description": "2019 - EJS language support for Visual Studio Code.",
-	"version": "1.3.1",
+	"name": "hexo-theme-tide-javascript-ejs-support",
+	"displayName": "EJS language support for hexo-theme-tide",
+	"description": "2019 - EJS language support for hexo-theme-tide and Visual Studio Code.",
+	"version": "0.0.1",
 	"license": "MIT",
 	"icon": "assets/icon.png",
-	"publisher": "DigitalBrainstem",
+	"publisher": "Hollis",
 	"author": {
-		"name": "Derek Thomas",
-		"email": "Derek@digitalbrainstem.com"
+		"name": "Hollis",
+		"email": "bianyukun1213@outlook.com"
 	},
 	"engines": {
 		"vscode": "^0.10.x"
@@ -24,26 +24,22 @@
 	"contributes": {
 		"languages": [
 			{
-				"id": "ejs",
-				"aliases": [
-					"EJS",
-					"ejs"
-				],
+				"id": "tidejs",
 				"extensions": [
-					".ejs"
+					".tidejs"
 				],
 				"configuration": "./language-configuration.json"
 			}
 		],
 		"grammars": [
 			{
-				"scopeName": "text.html.ejs",
-				"path": "./syntaxes/ejs.json",
+				"scopeName": "text.html.tidejs",
+				"path": "./syntaxes/tidejs.json",
 				"injectTo": [
 					"text.html"
 				],
 				"embeddedLanguages": {
-					"meta.embedded.block.ejs": "ejs",
+					"meta.embedded.block.tidejs": "tidejs",
 					"meta.embedded.block.javascript": "source.js"
 				}
 			}
@@ -56,24 +52,15 @@
 		],
 		"configurationDefaults": {
 			"files.associations": {
-				"*.ejs": "html"
+				"*.tidejs": "html"
 			},
 			"emmet.includeLanguages": {
-				"ejs": "html"
+				"tidejs": "html"
 			}
 		}
 	},
-	"bugs": {
-		"url": "https://github.com/Digitalbrainstem/ejs-grammar/issues",
-		"email": "help@digitalbrainstem.com"
-	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Digitalbrainstem/ejs-grammar.git"
-	},
-	"__metadata": {
-		"id": "9cd87837-c82a-4817-9b79-1c84775aa158",
-		"publisherId": "8a82c29a-f974-4692-be63-35a118c52919",
-		"publisherDisplayName": "DigitalBrainstem"
+		"url": "https://github.com/bianyukun1213/ejs-grammar"
 	}
 }
